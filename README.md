@@ -1,4 +1,4 @@
-# Clean SNS Email Notifications for S3 Bucket Events
+# Clean SNS email notifications for S3 bucket events
 
 This project shows you how to use AWS Lambda + EventBridge + SNS to send clean, readable email notifications for specific S3 bucket events, like `CreateBucket` or `PutBucketPolicy`. Instead of receiving large raw JSON in emails, this solution formats key event details into a simple, readable message.
 
@@ -213,7 +213,7 @@ aws lambda add-permission `
 - Environment variables keep things configurable
 - Easy to extend to other AWS services and events
 
-## Stack
+## AWS services stack
 
 - AWS Lambda (Python)
 - Amazon SNS (email alerts)
